@@ -5,7 +5,7 @@ import MySlider from "./components/MySlider";
 function App() {
   return (
     <div className="App">
-      <h1>MySlider</h1>
+      <h1>5b0g0030 仇子昕</h1>
       <MySlider />
       <h1>MyRGBPanel</h1>
       <MyRGBPanel />
