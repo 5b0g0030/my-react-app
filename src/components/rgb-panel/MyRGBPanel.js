@@ -2,7 +2,7 @@ import React from "react"; // 從 react 庫中導入 React
 import { useState } from "react"; // 從 react 庫中導入 useState 鉤子
 import MySlider from "./MySlider"; // 導入自定義的 MySlider 組件
 
-function MyRGBPanel() {
+function MyRGBPanel() { // 定義 MyRGBPanel 組件
   const [r, setR] = useState(128); // 使用 useState 鉤子初始化紅色值為 128
   const [g, setG] = useState(128); // 使用 useState 鉤子初始化綠色值為 128
   const [b, setB] = useState(128); // 使用 useState 鉤子初始化藍色值為 128
@@ -23,11 +23,11 @@ function MyRGBPanel() {
     margin: "auto", // 自動調整外邊距以居中對齊
   };
 
-  return (
-    <>
+  return ( // 返回要渲染的 JSX
+    <> {/* React Fragment, 用於包裹多個元素 */}
       <div style={rgbCss}> {/* 應用定義的 CSS 樣式 */}
         <h2 style={{ color: "red" }}> {/* 標題顏色設置為紅色 */}
-          目前色彩
+          目前色彩 {/* 顯示文字 "目前色彩" */}
         </h2>
         <div
           style={{
