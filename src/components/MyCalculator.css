@@ -1,62 +1,107 @@
+/* 定義類名為 .calculator 的樣式 */
 .calculator {
+    /* 設置寬度為 320 像素 */
     width: 320px;
+    /* 設置文字顏色為白色 */
     color: white;
+    /* 設置字體為 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* 設置邊框圓角為 10 像素 */
     border-radius: 10px;
+    /* 設置背景顏色為灰色 */
     background-color: grey;
+    /* 設置外邊距為自動，從而使計算器居中 */
     margin: auto;
+    /* 設置內邊距為 10 像素 */
     padding: 10px;
 }
 
+/* 定義類名為 .board 的樣式 */
 .board {
+    /* 設置為內聯塊顯示 */
     display: inline-block;
+    /* 設置外邊距為 10 像素 */
     margin: 10px;
 }
 
+/* 定義類名為 .display 的樣式 */
 .display {
+    /* 設置寬度為 100% */
     width: 100%;
+    /* 設置高度為 75 像素 */
     height: 75px;
+    /* 設置背景顏色為黑色 */
     background-color: black;
+    /* 設置文字對齊方式為右對齊 */
     text-align: right;
+    /* 設置字體大小為 50 像素 */
     font-size: 50px;
+    /* 設置邊框圓角為 5 像素 */
     border-radius: 5px;
 }
 
+/* 定義類名為 .btn 的樣式 */
 .btn {
+    /* 設置背景顏色為 #323232 */
     background-color: #323232;
+    /* 設置文字顏色為白色 */
     color: white;
+    /* 設置寬度為 60 像素 */
     width: 60px;
+    /* 設置高度為 60 像素 */
     height: 60px;
+    /* 設置字體大小為 25 像素 */
     font-size: 25px;
+    /* 設置邊框圓角為 50% */
     border-radius: 50%;
+    /* 移除按鈕的外輪廓 */
     outline: none;
+    /* 移除按鈕的邊框 */
     border: 0px;
+    /* 設置內邊距為 5% */
     padding: 5%;
+    /* 設置外邊距為 5 像素 */
     margin: 5px;
+    /* 設置鼠標指針為指針形狀 */
     cursor: pointer;
 }
 
+/* 定義類名為 .btn-action 的樣式，繼承 .btn 的樣式 */
 .btn-action {
+    /* 設置背景顏色為棕色 */
     background-color: brown;
+    /* 設置文字顏色為 bisque */
     color: bisque;
 }
 
+/* 定義類名為 .btn-operator 的樣式，繼承 .btn 的樣式 */
 .btn-operator {
+    /* 設置背景顏色為珊瑚色 */
     background-color: coral;
 }
 
+/* 定義類名為 .btn-0 的樣式，繼承 .btn 的樣式 */
 .btn-0 {
+    /* 設置寬度為 130 像素 */
     width: 130px;
+    /* 設置邊框圓角為 30 像素 */
     border-radius: 30px;
 }
 
-.btn:hover{
+/* 定義類名為 .btn 的懸停狀態樣式 */
+.btn:hover {
+    /* 設置背景顏色為白色 */
     background-color: white;
+    /* 設置文字顏色為黑色 */
     color: black;
+    /* 設置陰影效果 */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
 
-.btn:active{
+/* 定義類名為 .btn 的按下狀態樣式 */
+.btn:active {
+    /* 設置背景顏色為深紅色 */
     background-color: darkred;
+    /* 設置文字顏色為白色 */
     color: white;
 }
