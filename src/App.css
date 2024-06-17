@@ -1,39 +1,62 @@
+/* 定義類名為 .App 的樣式 */
 .App {
+  /* 設置文字對齊方式為居中 */
   text-align: center;
+  /* 設置背景顏色為古董白 */
   background-color: antiquewhite;
 }
 
+/* 定義類名為 .App-logo 的樣式 */
 .App-logo {
+  /* 設置高度為視口最小尺寸的 40% */
   height: 40vmin;
+  /* 禁用指針事件 */
   pointer-events: none;
 }
 
+/* 使用媒體查詢，當用戶偏好減少動畫效果時，不應用動畫 */
 @media (prefers-reduced-motion: no-preference) {
+  /* 定義類名為 .App-logo 的樣式，當用戶沒有減少動畫效果的偏好時應用 */
   .App-logo {
+    /* 設置動畫屬性，動畫名稱為 App-logo-spin，持續時間無限，週期為 20 秒，動畫方式為線性 */
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
+/* 定義類名為 .App-header 的樣式 */
 .App-header {
+  /* 設置背景顏色為藍紫色 */
   background-color: blueviolet;
+  /* 設置最小高度為視口高度的 50% */
   min-height: 50vh;
+  /* 設置為彈性盒子布局 */
   display: flex;
+  /* 設置彈性盒子的方向為縱向 */
   flex-direction: column;
+  /* 設置彈性盒子項目在交叉軸上的對齊方式為居中 */
   align-items: center;
+  /* 設置彈性盒子項目在主軸上的對齊方式為居中 */
   justify-content: center;
+  /* 設置字體大小為 10 像素加上 2% 的視口最小尺寸 */
   font-size: calc(10px + 2vmin);
+  /* 設置文字顏色為白色 */
   color: white;
 }
 
+/* 定義類名為 .App-link 的樣式 */
 .App-link {
+  /* 設置文字顏色為 #61dafb */
   color: #61dafb;
 }
 
+/* 定義名為 App-logo-spin 的關鍵幀動畫 */
 @keyframes App-logo-spin {
+  /* 設置動畫從 0 度開始旋轉 */
   from {
     transform: rotate(0deg);
   }
 
+  /* 設置動畫到 360 度結束旋轉 */
   to {
     transform: rotate(360deg);
   }

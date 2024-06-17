@@ -1,25 +1,45 @@
+/* 定義類名為 .calculator 的樣式 */
 .calculator {
+    /* 設置寬度為 320 像素 */
     width: 320px;
+    /* 設置高度為 500 像素 */
     height: 500px;
+    /* 設置文字顏色為白色 */
     color: white;
+    /* 設置字體為 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius:  10px;
+    /* 設置邊框圓角半徑為 10 像素 */
+    border-radius: 10px;
+    /* 設置背景顏色為灰色 */
     background-color: grey;
+    /* 設置自動外邊距，讓元素水平居中 */
     margin: auto;
+    /* 設置內邊距為 10 像素 */
     padding: 10px;
 }
 
-.board{
+/* 定義類名為 .board 的樣式 */
+.board {
+    /* 設置為行內塊元素 */
     display: inline-block;
+    /* 設置外邊距為 10 像素 */
     margin: 10px;
+    /* 設置背景顏色為藍色 */
     background-color: blue;
 }
 
-.display{
+/* 定義類名為 .display 的樣式 */
+.display {
+    /* 設置寬度為 100% */
     width: 100%;
+    /* 設置高度為 75 像素 */
     height: 75px;
+    /* 設置背景顏色為黑色 */
     background-color: black;
+    /* 設置文字對齊方式為右對齊 */
     text-align: right;
+    /* 設置字體大小為 50 像素 */
     font-size: 50px;
+    /* 設置邊框圓角半徑為 5 像素 */
     border-radius: 5px;
 }
